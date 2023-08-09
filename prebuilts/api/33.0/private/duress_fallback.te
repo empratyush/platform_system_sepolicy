@@ -1,0 +1,12 @@
+type duress_fallback, domain, coredomain;
+type duress_fallback_exec, exec_type, file_type, system_file_type;
+
+domain_auto_trans(init, duress_fallback_exec, duress_fallback)
+
+allow duress_fallback shell_exec:file rx_file_perms;
+allow duress_fallback zygote_exec:file rx_file_perms;
+
+allow duress_fallback activity_service:service_manager find;
+allow duress_fallback servicemanager:binder call;
+
+binder_call(duress_fallback, system_server)
