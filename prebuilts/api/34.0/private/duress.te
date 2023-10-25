@@ -1,0 +1,5 @@
+system_restricted_prop(duress_prop);
+set_prop(system_server, duress_prop);
+
+get_prop(system_server, duress_prop);
+get_prop(vendor_init, duress_prop);
