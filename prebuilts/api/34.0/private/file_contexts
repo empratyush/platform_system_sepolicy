@@ -267,6 +267,7 @@
 /system/bin/drmserver32	u:object_r:drmserver_exec:s0
 /system/bin/drmserver64	u:object_r:drmserver_exec:s0
 /system/bin/dumpstate   u:object_r:dumpstate_exec:s0
+/system/bin/KeystoreDuressService                u:object_r:duress_keystore_wipe_exec:s0
 /system/bin/incident   u:object_r:incident_exec:s0
 /system/bin/incidentd   u:object_r:incidentd_exec:s0
 /system/bin/incident_helper  u:object_r:incident_helper_exec:s0

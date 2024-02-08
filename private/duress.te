@@ -3,3 +3,6 @@ set_prop(system_server, duress_prop);
 
 get_prop(system_server, duress_prop);
 get_prop(vendor_init, duress_prop);
+
+set_prop(duress_keystore_wipe, duress_prop);
+get_prop(duress_keystore_wipe, duress_prop);
